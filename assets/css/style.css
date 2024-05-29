@@ -319,7 +319,32 @@
     scale: 1.2;
 }
 
-
+.welcome-section4 {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-48);
+    font-weight: 700;
+    color: var(--color-black);
+    line-height: 72px;
+    text-align: left;
+}
+.lorem-paragraph-section4{
+    font-family: "Poppins",sans-serif;
+        font-size: var(--font-size-18);
+        font-weight: 400;
+        color: var(--color-black);
+        line-height: 27px;
+        text-align: left;
+}
+.pt-33{
+    padding-top: 33px;
+}
+.my-115{
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+.mt-23{
+    margin-top: 23px;
+}
 @media (min-width:1440px) {
     .overflow1 {
         overflow: visible;
@@ -360,6 +385,9 @@
 
     .why-choose {
         font-size: var(--font-size-32);
+    }
+    .sm-pt-33{
+        padding-top: 33px;
     }
 }
 
@@ -409,5 +437,14 @@
 
     .section2-span-3 {
         display: none;
+    }
+    .lg-mt-24{
+        margin-top: 24px;
+    }
+    .lg-d-flex{
+        display: flex;
+    }
+    .lg-justi-center{
+        justify-content: center;
     }
 }
