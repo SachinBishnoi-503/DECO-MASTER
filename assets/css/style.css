@@ -23,6 +23,10 @@
     --font-size-45: 45px;
     --font-size-24: 24px;
     --font-size-: px;
+    --font-size-: px;
+    --font-size-: px;
+    --font-size-: px;
+    --font-size-: px;
     /* color */
     --color-white: #ffffff;
     --color-purple: #9003E5;
@@ -31,6 +35,8 @@
     --color-black: #000000;
     --color-1color: #010080;
 }
+
+
 
 .gap-45 {
     gap: 45px;
@@ -461,6 +467,10 @@
     scale: 1.05;
 }
 
+.shadow11 {
+    position: relative;
+}
+
 .shadow11::after {
     content: '';
     position: absolute;
@@ -472,15 +482,20 @@
     border-radius: 40px;
 }
 
-.shadow11::after {
+.shadow12::after {
     content: '';
     position: absolute;
     width: 200%;
-    right: -90%;
+    left: -90%;
     background: #EEEEEE;
-    height: 401px;
+    height: 365px;
     bottom: -60px;
     border-radius: 40px;
+}
+
+.color-img {
+    position: absolute;
+    width: 50%;
 }
 
 @media (min-width:1440px) {
@@ -532,17 +547,30 @@
     .section6-residential {
         font-size: var(--font-size-24) !important;
     }
-          .section6-yellow-image {
-              position: absolute;
-              width: 100% !important;
-              top: 2%;
-          }
+
+    .section6-yellow-image {
+        position: absolute;
+        width: 100% !important;
+        top: 2%;
+    }
 }
 
 @media (max-width:992px) {
+    .lg-column-revers {
+        flex-direction: column-reverse;
+    }
+
+    .box12 {
+        min-height: auto;
+        align-items: end;
+    }
+
     .box22 {
         flex-wrap: wrap;
         padding: 10px;
+        background-color: #EEEEEE;
+        padding: 20px;
+        border-radius: 40px;
     }
 
     .shadow11::after {
@@ -550,12 +578,9 @@
         display: none;
     }
 
-    .box12 {
-        padding: 12px;
-        width: 100%;
-        background: #EEEEEE;
-        border-radius: 40px;
-        position: relative;
+    .shadow12::after {
+        content: unset;
+        display: none;
     }
 
     .menubar {
