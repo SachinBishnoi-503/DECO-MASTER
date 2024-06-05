@@ -35,6 +35,7 @@
     --color-black: #000000;
     --color-1color: #010080;
     --color-email: #4D4D4D;
+    --color-icon: #444444;
 }
 
 
@@ -724,12 +725,102 @@
     line-height: 30px;
     text-align: left;
 }
+
 .btn-subscribe:hover {
     background-color: #FFFFFF;
     color: var(--color-1color);
     box-shadow: 0 0 15px #010080;
     scale: 1.05;
 }
+
+.footer-lorem {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.footer-list {
+    width: fit-content;
+    position: relative;
+    transition: all 0.3s linear;
+}
+
+.footer-list:hover {
+    color: skyblue;
+}
+
+.footer-list::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -2px;
+    background-color:skyblue;
+    width: 0%;
+    height: 2px;
+    transition: all 0.3s linear;
+}
+
+.footer-list:hover::after {
+    width: 100%;
+}
+
+.footer-links {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+.footer-heading-link {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+}
+
+.footer-background {
+    background-color: var(--color-black);
+}
+
+.footer-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--color-icon);
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.line-footer-bottom {
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-white);
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.copy-right-footer {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--font-size-18);
+    color: var(--color-white);
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+}
+
+
 @media (min-width:1200px) {
     .set-image1 {
         top: 0%;
