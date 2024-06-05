@@ -19,12 +19,12 @@
                         <img src="./assets/images/svg/navbar-logo.svg" alt="no-logo">
                     </div>
                     <div class="d-flex gap-45 navbar-iteams">
-                        <a class="home-navbar position-relative" href="">Home</a>
-                        <a class="home-navbar position-relative" href="">Overview</a>
-                        <a class="home-navbar position-relative" href="">Why Choose Us?</a>
-                        <a class="home-navbar position-relative" href="">Our Plans</a>
-                        <a class="home-navbar position-relative" href="">How It Works</a>
-                        <a class="home-navbar position-relative" href="">FAQs</a>
+                        <a class="home-navbar position-relative" href="#home">Home</a>
+                        <a class="home-navbar position-relative" href="#over-view">Overview</a>
+                        <a class="home-navbar position-relative" href="#why-choose-us">Why Choose Us?</a>
+                        <a class="home-navbar position-relative" href="#our-plans">Our Plans</a>
+                        <a class="home-navbar position-relative" href="#how-its-work">How It Works</a>
+                        <a class="home-navbar position-relative" href="#FAQs">FAQs</a>
                     </div>
                     <div class="menubar">
                         <span></span>
@@ -35,7 +35,7 @@
             </nav>
         </div>
     </header>
-    <main class="overflow-hidde">
+    <main class="overflow-hidde" id="home">
         <!-- ............................section-1......................... -->
         <section class="section1-backgroundimage d-flex align-items-center">
             <div class="container md-align-iteam-center md-justify-center md-d-flex md-flex-column">
@@ -49,7 +49,7 @@
             </div>
         </section>
         <!-- .............section-2........................ -->
-        <section class="position-relative py-5 my-5">
+        <section class="position-relative py-5 my-5" id="how-its-work">
             <div class="container position-relative z-1">
                 <div class="d-flex align-items-center justify-content-center flex-column">
                     <h2 class="mt-115 why-choose">Why Choose Us?</h2>
@@ -101,7 +101,7 @@
                 class="position-absolute bottom-0 start-0">
         </section>
         <!-- .............section-3....................... -->
-        <section class="position-relative pt-5  section3">
+        <section class="position-relative pt-5  section3" id="over-view">
             <div class="container">
                 <h2 class="section3-gallery text-center">Gallery</h2>
                 <div class="d-flex align-items-center justify-content-center gap-2 mt-16">
@@ -434,7 +434,7 @@
             </div>
         </section>
         <!-- .............section-4.............. -->
-        <section class="position-relative py-5 ">
+        <section class="position-relative py-5 " id="our-plans">
             <div class="container my-115 z-1 position-relative">
                 <div class="row">
                     <div class="col-12 col-lg-6">
@@ -485,66 +485,58 @@
                 class="bottom-0 end-0 position-absolute">
         </section>
         <!--............. section-5......... -->
-        <section class="py-5 position-relative">
-            <div class="container">
-                <div class="d-flex justify-content-center flex-column align-items-center">
-                    <h2 class="our-process">Our Process</h2>
-                    <div class="d-flex align-items-center justify-content-center gap-2 mt-16">
-                        <div class="dot-1"></div>
-                        <div class="dot-2"></div>
-                        <div class="dot-3"></div>
-                    </div>
+        <section class="position-relative py-115 d-flex align-items-center justify-content-center" id="process">
+            <div class="container ">
+                <h2 class="our-process  text-center lh-72">Our Process</h2>
+                <div class="d-flex align-items-center justify-content-center gap-2 mt-16 mb-255">
+                    <div class="dot-1"></div>
+                    <div class="dot-2"></div>
+                    <div class="dot-3"></div>
                 </div>
-                <div class="row box-2 justify-content-center left-0 m-0 w-100">
-                    <div
-                        class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center position-relative z-1 flex-column align-items-center ">
-                        <h2 class="section5-heading">1. Request a free estimate</h2>
-                        <img src="./assets/images/png/section5-image1.png" alt="no-image" class="m1">
-                    </div>
-                    <div
-                        class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center m position-relative z-1 flex-column align-items-center">
-                        <h2 class="section5-heading">3. Extensive Prep Work</h2>
-                        <img src="./assets/images/png/section5-image2.png" alt="no-image" class="m1">
-                    </div>
-                    <div
-                        class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center position-relative z-1 flex-column align-items-center">
-                        <h2 class="section5-heading">5. Wash Up & Clean Up</h2>
-                        <img src="./assets/images/png/section5-image3.png" alt="no-image" class="m1">
-
-                    </div>
-                    <div
-                        class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center  position-relative z-1 flex-column align-items-center">
-                        <h2 class="section5-heading">7. Pay & Enjoy Newly Painted Space!</h2>
-                        <img src="./assets/images/png/section5-image4.png" alt="no-image" class="m1">
-                    </div>
-                    <div class="layer-image position-absolute">
-                        <img src="./assets/images/png/layer.png" alt="no-image" class="w-45">
-                    </div>
-                    <div class="row justify-content-center pt-60">
-                        <div
-                            class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center position-relative z-1 flex-column align-items-center">
-                            <img src="./assets/images/png/section5-image5.png" alt="no-image" class="m1">
-                            <h2 class="section5-heading">2. Schedule Your Service</h2>
-
+                <div class="position-relative">
+                    <img src="./assets/images/png/layer.png" alt="w-img" class="w-100 pos-none layer">
+                    <div class="roww">
+                        <div class="pos-1 col6 col12 d-flex flex-column align-items-center">
+                            <h4 class="section5-heading d_max_none cursor">1.Request a free estimate</h4>
+                            <img src="./assets/images/png/section5-image1.png" alt="pos-1">
+                            <h4 class="section5-heading d_min_none cursor">1.Request a free estimate</h4>
                         </div>
-                        <div
-                            class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center  position-relative z-1 flex-column align-items-center ">
-                            <img src="./assets/images/png/section5-image6.png" alt="no-image" class="m1">
-                            <h2 class="section5-heading">4. The Paint Magic Begins</h2>
+                        <div class="pos-2 col6 col12 mt-md-40 d-flex flex-column align-items-center">
+                            <img src="./assets/images/png/section5-image2.png" alt="pos-1">
+                            <h4 class="section5-heading cursor">2. Schedule Your Service</h4>
                         </div>
-                        <div
-                            class="col-xl-3 col-12 col-sm-6 col-md-4  d-flex justify-content-center position-relative z-1 flex-column align-items-center">
-                            <img src="./assets/images/png/section5-image7.png" alt="no-image" class="m1">
-                            <h2 class="section5-heading">6. Perform Inspection</h2>
+                        <div class="pos-3 col6 col12 mt-40 d-flex flex-column align-items-center mt-35">
+                            <h4 class="section5-heading d_max_none cursor">3. Extensive Prep Work</h4>
+                            <img src="./assets/images/png/section5-image3.png" alt="pos-1">
+                            <h4 class="section5-heading d_min_none cursor">3. Extensive Prep Work</h4>
+                        </div>
+                        <div class="pos-4 col6 col12 mt-40 d-flex flex-column align-items-center mt-35">
+                            <img src="./assets/images/png/section5-image4.png" alt="pos-1">
+                            <h4 class="section5-heading cursor">4. The Paint Magic Begins</h4>
+                        </div>
+                        <div class="pos-5 col6 col12 mt-40 d-flex flex-column align-items-center mt-35">
+                            <h4 class="section5-heading d_max_none cursor">5. Wash Up & Clean Up</h4>
+                            <img src="./assets/images/png/section5-image5.png" alt="pos-1">
+                            <h4 class="section5-heading d_min_none cursor">5. Wash Up & Clean Up</h4>
+                        </div>
+                        <div class="pos-6 col6 col12 mt-40 d-flex flex-column align-items-center mt-35">
+                            <img src="./assets/images/png/section5-image6.png" alt="pos-1">
+                            <h4 class="section5-heading cursor">6. Perform Inspection</h4>
+                        </div>
+                        <div class="pos-7 col6 col12 mt-40 d-flex flex-column align-items-center mt-35">
+                            <h4 class="section5-heading max-w-270 d_max_none cursor">7. Pay & Enjoy Newly Painted Space!
+                            </h4>
+                            <img src="./assets/images/png/section5-image7.png" alt="pos-1">
+                            <h4 class="section5-heading max-w-270 d_min_none cursor">7. Pay & Enjoy Newly Painted Space!
+                            </h4>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
         <!-- -------------section-6........................... -->
         <section class="pt-5 pb-5 position-relative overflow-hidden">
-            <div class="container mb-5 position-relative">
+            <div class="container mb-5 position-relative mt-115">
                 <h2 class="section6-our-service text-center">Our Services</h2>
                 <div class="d-flex align-items-center justify-content-center gap-2 mt-16">
                     <div class="dot-1"></div>
@@ -577,7 +569,7 @@
             </div>
         </section>
         <!--------------- section-7.......................... -->
-        <section class=" position-relative overflow-hidden">
+        <section class=" position-relative overflow-hidden" id="why-choose-us">
             <div class="container mb-5 position-relative">
                 <div class="row shadow12 lg-column-revers">
                     <div class="col-lg-6 col-12 position-relative z-1 m-h-498 d-flex mt-24">
@@ -871,7 +863,7 @@
             <img src="./assets/images/png/section11-bottom-right.png" alt="no-image"
                 class="position-absolute bottom-0 end-0">
         </section>
-        <footer class="footer-background pt-5 pb-2">
+        <footer class="footer-background pt-5 pb-2" id="FAQs">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12 mt-24">
@@ -968,13 +960,6 @@
             <div class="line-footer-bottom"></div>
             <div class="d-flex justify-content-center">
                 <p class="copy-right-footer">Copyright © Deco Master , 2021.</p>
-            </div>
-            <div class="position-fixed scroll-top">
-                <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M19.0835 17.0007V33.6673H14.9168V17.0007H0.333496L17.0002 0.333984L33.6668 17.0007H19.0835Z"
-                        fill="white" />
-                </svg>
             </div>
         </footer>
 
