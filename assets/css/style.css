@@ -26,7 +26,7 @@
     --font-size-70: 70px;
     --font-size-40: 40px;
     --font-size-25: 25px;
-    --font-size-: px;
+    --font-size-15: 15px;
     /* color */
     --color-white: #ffffff;
     --color-purple: #9003E5;
@@ -937,10 +937,6 @@
 }
 
 @media (max-width:567px) {
-    .DECONSTRUCTION {
-        font-size: var(--font-size-25);
-    }
-
     .digital-paint {
         font-size: var(--font-size-17);
     }
@@ -986,6 +982,10 @@
 }
 
 @media (max-width:992px) {
+    .digital-paint {
+        font-size: var(--font-size-15) !important;
+    }
+
     .news-letter {
         font-size: var(--font-size-90);
         margin-top: 40px;
@@ -1079,6 +1079,10 @@
 
     .lg-justi-center {
         justify-content: center;
+    }
+
+    .DECONSTRUCTION {
+        font-size: var(--font-size-25) !important;
     }
 
 }
